@@ -9,7 +9,7 @@ import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MakeNetWorkCall(private val listener: GetTheResponse) {
+class MakeNetworkCall(private val listener: GetTheResponse) {
     private var rules =Rules()
     private val retrofit = Retrofit.Builder()
         .baseUrl(RulesApi.BASE_URL)

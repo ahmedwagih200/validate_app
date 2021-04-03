@@ -13,6 +13,7 @@ data class Rules(
     val maximumRepeatedCharacters : Int=0 ,
     val maximumConsecutiveRepeatedCharacters : Int=0 ,
     val maximumAscendingCharacters : Int=0 ,
+    val maximumDescendingCharacters : Int=0,
     val passwordHistoryCount : Int=0 ,
     val canContainUserId : Boolean= true ,
     val specialCharacters : String = "" ,
